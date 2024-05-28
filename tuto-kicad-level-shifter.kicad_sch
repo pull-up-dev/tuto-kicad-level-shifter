@@ -7,6 +7,7 @@
 	(title_block
 		(title "Level Shifter I2C")
 		(date "2024-05-26")
+		(rev "1.0")
 		(company "pull-up.dev")
 	)
 	(lib_symbols
@@ -1424,6 +1425,28 @@
 			(type default)
 		)
 		(uuid "f405cddc-a77d-4055-be58-113b939f2db0")
+	)
+	(text_box "VREF1 < VREF2"
+		(exclude_from_sim no)
+		(at 128.27 117.475 0)
+		(size 17.78 3.175)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 138 73 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "95200aa2-a080-44b4-a69d-49628ffc6343")
 	)
 	(label "VREF2"
 		(at 142.24 78.74 0)
